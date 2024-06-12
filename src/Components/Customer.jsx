@@ -69,55 +69,8 @@ function Customer() {
            </div>
            </div>
 
+           </div>
 
-
-
-
-
-
-
-
-  //   <div className=' relative mt-[5rem] mb-[20rem]  bg-gray-200   '>
-       
-  
-  // <div className=" text-center left-[2rem]  pt-[0rem]   ">
-  //      <div className=' space-y-4'>
-  //      <h1 className=' text-[3rem] font-semibold mt-[10rem]  '>Our Special Dishes</h1>
-  //       <p>  Lorem ipsum dolor sit amet, consectetur <br />
-
-  //       adipiscing elit, sed do eiusmod tempor incididunt </p>
-  //      </div>
-   
-  // </div>
-       
-  //      {/* Cards part */}
-  //      <div className=" flex justify-center  items-center gap-4 h-[100vh]   ">
-
-
-  //      <div className=" absolute left-[0rem] flex space-x-7  ">
-  //                   <img className='mt-[15rem]' src={bg11} alt="" />
-                 
-                  
-  //               </div>
-
-  //      </div>
-  //   </div>
-   
-
-//     <div className=' relative mt-[8rem]  bg-gray-200   '>
-       
-  
-//     <div className=" text-center   ">
-//          <img className='w-[20vh]   absolute left-0'    src={bg11} alt="" />
-//          <div className=' space-y-4'>
-//          <h1 className=' text-[3rem] font-semibold     '>Our Happy</h1>
-//           <p>  Lorem ipsum dolor sit amet, consectetur <br />
-//           adipiscing elit, sed do eiusmod tempor incididunt </p>
-// </div>
-//       </div>
-// </div>
-     
- 
 )
 }
 
