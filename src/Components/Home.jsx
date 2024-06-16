@@ -7,7 +7,7 @@ import bg5 from'../assets/dish.png'
 import bg6 from'../assets/text.png'
 export default function Home() {
   return (
-    <div className='sm:flex mt-[11rem] relative sm:justify-between mx-[8rem]  '>
+    <div className='flex mt-[11rem] relative justify-between mx-[8rem]  '>
          <img className=' sm:absolute top-[-4.8rem] left-[-2.4rem]   ' src={bg6} alt="" />
 
         <div className=" space-y-[3rem] relative top-[5.6rem]   ">
@@ -15,19 +15,19 @@ export default function Home() {
             <p className='mt-[2rem] space-y-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className=" space-x-4">
-                    <button className='py-3 px-7 bg-[#101A24] text-white rounded-tl-[0.5rem] 
+                    <button className='py-3 px-7 hover:bg-slate-500 bg-[#101A24] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Menu</button>
-                    <button className='py-3 px-7 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
+                    <button className='py-3 px-7 hover:bg-slate-500 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Book a table</button>
                 </div>
                 <div className=" flex space-x-4 mt-[1rem]  ">
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-facebook-f "></i>
+            fa-brands fa-facebook-f hover:bg-blue-500 hover:text-white "></i>
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-instagram "></i>
+            fa-brands fa-instagram hover:bg-red-300 "></i>
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-x-twitter "></i>
-       
+            fa-brands fa-x-twitter hover:bg-black hover:text-white "></i>
+    
         </div>
        
 

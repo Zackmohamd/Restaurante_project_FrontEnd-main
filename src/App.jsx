@@ -6,6 +6,7 @@ import About from './Components/About'
 import Expert from './Components/Expert'
 import Customer from './Components/Customer'
 import Footer from './Components/Footer'
+import Promo from './Components/Promo'
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <About/>
     <Expert/>
     <Customer/>
+    <Promo/>
     <Footer/>
  
   </div>

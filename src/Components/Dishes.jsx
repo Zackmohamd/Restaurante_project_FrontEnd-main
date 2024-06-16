@@ -60,7 +60,7 @@ export default function Dishes() {
              absolute left-[22.3rem] top-[18.5rem] text-white text-center font-semibold  ">$50</div>
              
                {/* content div */}
-                  <div className=" text-center absolute bottom-[14rem]
+                  <div className=" text-center absolute bottom-[12rem]
                   left-[10.2rem] space-y-6  ">
                   <h1 className=' text-[1.5rem] font-semibold  '>Lumpia with Suace</h1>
                   <p className=' text-[1.1rem] text-gray-600  '>Lorem ipsum dolor sit <br /> consectetur adipiscing
@@ -80,7 +80,7 @@ export default function Dishes() {
              absolute left-[39.9rem] top-[18.5rem] text-white text-center font-semibold  ">$10</div>
              
                {/* content div */}
-                  <div className=" text-center absolute bottom-[14rem]
+                  <div className=" text-center absolute bottom-[12rem]
                   left-[28rem] space-y-6  ">
                   <h1 className=' text-[1.5rem] font-semibold  '>Fish and Veggie</h1>
                   <p className=' text-[1.1rem] text-gray-600  '>Lorem ipsum dolor sit <br /> consectetur adipiscing
@@ -103,7 +103,7 @@ export default function Dishes() {
              absolute right-[27rem] top-[18.5rem] text-white text-center font-semibold  ">$25</div>
              
                {/* content div */}
-                  <div className=" text-center absolute bottom-[14rem]
+                  <div className=" text-center absolute bottom-[12rem]
                   right-[27.4rem] space-y-6  ">
                   <h1 className=' text-[1.5rem] font-semibold  '>Tofu Chili</h1>
                   <p className=' text-[1.1rem] text-gray-600  '>Lorem ipsum dolor sit <br /> consectetur adipiscing
@@ -123,7 +123,7 @@ export default function Dishes() {
              absolute right-[9.2rem] top-[18.5rem] text-white text-center font-semibold  ">$15</div>
              
                {/* content div */}
-                  <div className=" text-center absolute bottom-[14rem] 
+                  <div className=" text-center absolute bottom-[12rem] 
                  right-[10.2rem] space-y-6  ">
                   <h1 className=' text-[1.5rem] font-semibold  '>Egg and Cocumber</h1>
                   <p className=' text-[1.1rem] text-gray-600  '>Lorem ipsum dolor sit <br /> consectetur adipiscing
