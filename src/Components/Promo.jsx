@@ -13,7 +13,7 @@ function Promo() {
     {/* <input className='py-6 pr-[16rem] pl-[2rem] rounded-lg text-left-[10rem]' type="text"  placeholder='Enter your email' /> */}
     <input className='py-6 pr-[16rem] pl-[2rem] rounded-lg text-left-[10rem]' type="text"  placeholder='Enter your email'>
     </input>
-    <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+    <button class=" bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
       Sign Up
     </button>
     </div>
