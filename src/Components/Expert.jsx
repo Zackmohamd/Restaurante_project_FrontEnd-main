@@ -9,7 +9,6 @@ import bg10 from'../assets/Goup1.png'
 function Expert() {
   return (
         <div className=' flex mt-[8rem] relative justify-between mx-[8rem]  '>
-         {/* <img className=' absolute top-[-4.8rem] left-[-2.4rem]   ' src={bg6} alt="" /> */}
          <div className="font-serif">
   <img className='w-[10vw] absolute  left-[-15rem]    '  src={bg7} alt="" />
   <img className='w-[10vw] absolute  left-[-4rem]  top-[-2rem]  '  src={bg8} alt="" />

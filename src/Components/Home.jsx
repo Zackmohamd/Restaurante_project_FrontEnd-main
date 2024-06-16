@@ -7,8 +7,8 @@ import bg5 from'../assets/dish.png'
 import bg6 from'../assets/text.png'
 export default function Home() {
   return (
-    <div className=' flex mt-[11rem] relative justify-between mx-[8rem]  '>
-         <img className=' absolute top-[-4.8rem] left-[-2.4rem]   ' src={bg6} alt="" />
+    <div className='sm:flex mt-[11rem] relative sm:justify-between mx-[8rem]  '>
+         <img className=' sm:absolute top-[-4.8rem] left-[-2.4rem]   ' src={bg6} alt="" />
 
         <div className=" space-y-[3rem] relative top-[5.6rem]   ">
             <h1 className='text-[3.4rem] font-semibold   '>  We provide the <br /> best food for you</h1>

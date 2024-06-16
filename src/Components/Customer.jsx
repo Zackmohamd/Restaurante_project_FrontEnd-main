@@ -1,19 +1,7 @@
 import React from 'react'
 import bg11 from'../assets/Group.png'
-import bg7 from'../assets/Toon1.png'
-import bg8 from'../assets/Toon2.png'
-import bg9 from'../assets/chief1.png'
-import bg10 from'../assets/Goup1.png'
 import bg12 from'../assets/Stars.png'
 import bg13 from'../assets/person1.png'
-
-
-
-
-import bg2 from'../assets/imgbg2.png'
-import bg3 from'../assets/imgbg3.png'
-import dish1 from'../assets/dishone.png'
-
 
 function Customer() {
   return (
@@ -66,7 +54,6 @@ function Customer() {
            
            </div>
     
-           </div>
            </div>
 
            </div>

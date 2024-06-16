@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import bg1 from'../assets/imgbg1.png'
 import bg2 from'../assets/imgbg2.png'
 import bg3 from'../assets/imgbg3.png'
 import dish1 from'../assets/dishone.png'
@@ -9,8 +8,6 @@ import dish4 from'../assets/dishfour.png'
 import bg4 from'../assets/Toon1.png'
 import bg5 from'../assets/Toon2.png'
 import bg6 from'../assets/laamo.png'
-import bg7 from'../assets/laamo2.png'
-import bg8 from'../assets/Toonone.png'
 import bg9 from'../assets/basal.png'
 
 

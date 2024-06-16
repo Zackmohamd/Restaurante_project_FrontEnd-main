@@ -1,16 +1,23 @@
 import React from 'react'
 import Logo from'../assets/logo.png'
+import bg15 from'../assets/Group.png'
+
+
 
 
 function Footer() {
   return (
     <div className=''>
-    <div className=' flex   items-center pt-[-1rem] relative  justify-between mx-[8rem] h-[110vh]'>
+        <div>
+            
+        </div>
+    <div className=' flex   items-center  relative  justify-between mx-[8rem] h-[110vh]'>
         {/* logo */}
-         <div className='pt-[-28rem]'>
-            <img className=' absolute left-[-3rem]  ' src={Logo} alt="" />
-            <h1 className=' text-[2rem] pl-[0.8rem] font-semibold  ' >Restaurant</h1>
-            <p className='pt-[rem]'>lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod tempor incididunt ut labore et<br/> dolore  <a className='underline' href="#">.Learn more</a>
+
+         <div className='pt-[6rem]'>
+            <img className=' absolute left-[-3rem]  pt-[-10rem] ml-[2rem]' src={Logo} alt="" />
+            <h1 className=' text-[2rem] pl-[0.8rem] font-semibold pt-[-10rem] ml-[2rem]  ' >Restaurant</h1>
+            <p className='pt-[1.5rem]'>lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod tempor incididunt ut labore et<br/> dolore  <a className='underline' href="#">.Learn more</a>
             </p>
             
             <h1 className='pt-[5rem] font-bold'>Opening Hours</h1>
@@ -40,7 +47,7 @@ function Footer() {
         </div>
       
        {/* navi */}
-       <div className='grid grid-rows-1 grid-flow-col gap-4'>
+       <div className='grid grid-rows-1 grid-flow-col gap-4 pt-[10rem]'>
 
        </div>
         
@@ -77,12 +84,33 @@ function Footer() {
        
         </div>
             </div>
-            {/* <div className='underline-offset-8 size-10'>
-                <h1>&copy; Restaurnaars</h1>
-            </div> */}
-            
+          
+
       
     </div>
+<div className="flex justify-center ">
+    <hr className="h-px w-4/5	t-[-10rem]	 bg-gray-200 border-0 dark:bg-gray-700 mt-8 mb-4 mx-auto" />
+</div>
+<div className="sm:flex sm:items-center sm:justify-between pt-3 px-12 pb-[10rem]" >
+          <span className="text-sm  sm:text-center dark:text-gray-400 px-12">© 2024 Restaurant™. All Rights Reserved Designed byzack.
+          </span>
+          <div className="flex mt-4 sm:justify-center sm:mt-0">
+              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                 
+                  <span className="">Terms of Service</span>
+              </a>
+              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-7">
+                  
+                  <span className="">Privacy Policy</span>
+              </a>
+              </div>
+              </div>
+
+
+
+
+
+
     </div>
     
   )
