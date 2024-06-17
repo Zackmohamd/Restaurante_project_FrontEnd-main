@@ -1,6 +1,6 @@
 import React from 'react'
 import bg16 from '../assets/Maskgroup.png'
-function Promo() {
+function Contact() {
   return (
 
     <div class="relative w-[150vh] mx-auto ">
@@ -21,4 +21,4 @@ function Promo() {
   )
 }
 
-export default Promo
+export default Contact
