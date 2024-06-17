@@ -52,22 +52,22 @@ function Footer() {
        </div>
         
             <ul className='pb-[13rem] space-y-5 '>
-            <h1 className='font-bold'>Navigation</h1>
+            <h1 className='font-bold '>Navigation</h1>
 
-                <li className=' text-gray-500'><a href="">Menu</a></li>
-                <li className=' text-gray-500'><a href="">About</a></li>
-                <li className=' text-gray-500'><a href="">Contact us</a></li>
-                <li className=' text-gray-500'><a href="">Main dishes</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Menu</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">About</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Contact us</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Main dishes</a></li>
 
             </ul>
             <div>
             <ul className='pb-[13rem] space-y-5'>
             <h1 className='font-bold'>Dishes</h1>
 
-            <li className=' text-gray-500'><a href="">Fish&Viggies</a></li>
-            <li className=' text-gray-500'><a href="">Tofu chili</a></li>
-            <li className=' text-gray-500'><a href="">Egg&Cocumber</a></li>
-            <li className=' text-gray-500'><a href="">Lumpia w/Suace</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Fish&Viggies</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Tofu chili</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Egg&Cocumber</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Lumpia w/Suace</a></li>
 
             </ul>
             
@@ -97,11 +97,11 @@ function Footer() {
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                  
-                  <span className="">Terms of Service</span>
+                  <span className="hover:text-blue-300">Terms of Service</span>
               </a>
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-7">
                   
-                  <span className="">Privacy Policy</span>
+                  <span className="hover:text-blue-300">Privacy Policy</span>
               </a>
               </div>
               </div>
