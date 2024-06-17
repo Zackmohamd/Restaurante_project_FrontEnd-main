@@ -23,18 +23,18 @@ function Footer() {
             <h1 className='pt-[5rem] font-bold  '>Opening Hours</h1>
             <div className='grid grid-rows-1 grid-flow-col gap-7'>
                 <div className='pt-[3rem]  text-gray-500'>
-                    <h1>Monday-Friday</h1>
+                    <h1>Monday-Thursday</h1>
                     <h1>8:00 am to 9:00 pm</h1>
 
                 </div>
                 <div className='pt-[3rem] text-gray-500'>
-                    <h1>SATURDAY</h1>
+                    <h1>Saturday</h1>
                     <h1>8:00 am to 9:00 pm</h1>
                     
 
                 </div>
                 <div className='pt-[3rem]  text-gray-500'>
-                    <h1>SUNDAY</h1>
+                    <h1>Friday</h1>
                     <h1>CLOSED</h1>
 
                 </div>
@@ -73,7 +73,7 @@ function Footer() {
             
             </div>
             <div className='pb-[20rem]'>    
-                <h1 className='font-bold ' >Follows</h1>
+                <h1 className='font-bold ' >Connect with us</h1>
                 <div className=" flex space-x-4 mt-[2rem]  ">
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
             fa-brands fa-facebook-f "></i>

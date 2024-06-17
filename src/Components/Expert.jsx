@@ -8,7 +8,7 @@ import bg10 from'../assets/Goup1.png'
 
 function Expert() {
   return (
-        <div className=' flex mt-[8rem] relative justify-between mx-[8rem]  '>
+        <div id='Expert' className=' flex mt-[8rem] relative justify-between mx-[8rem]  '>
          <div className="font-serif">
   <img className='w-[10vw] absolute  left-[-15rem]    '  src={bg7} alt="" />
   <img className='w-[10vw] absolute  left-[-4rem]  top-[-2rem]  '  src={bg8} alt="" />
@@ -41,10 +41,10 @@ function Expert() {
   
                 </div>
              
-                <div className=" space-x-8 left-10">
-                    <button className='py-3  px-7 bg-[#101A24] text-white rounded-tl-[0.5rem] 
+                <div className=" space-x-8">
+                    <button className='py-3  px-7 hover:bg-slate-500 bg-[#101A24] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Menu</button>
-                    <button className='py-3 px-7 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
+                    <button className='py-3 px-7 hover:bg-slate-500 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Book a table</button>
                 </div>
                 </div>

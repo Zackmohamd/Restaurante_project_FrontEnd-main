@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import bg2 from'../assets/imgbg2.png'
 import bg3 from'../assets/imgbg3.png'
 import dish1 from'../assets/dishone.png'
@@ -16,7 +16,7 @@ import bg9 from'../assets/basal.png'
 export default function Dishes() {
  
   return (
-    <div className=' relative mt-[8rem]  bg-gray-200   '>
+    <div id='Dishes' className=' relative mt-[8rem]  bg-gray-200   '>
        
   
   <div className=" text-center  pt-[2rem]   ">

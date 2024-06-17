@@ -16,9 +16,9 @@ export default function About() {
              adipiscing elit, sed do eiusmod tempor incididunt <br />
              ut labore et dolore magna aliqua.
              <div className=" space-x-4">
-                    <button className='py-3 px-7 bg-[#101A24] text-white rounded-tl-[0.5rem] 
+                    <button className='py-3 px-7 hover:bg-slate-500 bg-[#101A24] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Menu</button>
-                    <button className='py-3 px-7 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
+                    <button className='py-3 px-7 hover:bg-slate-500 bg-[#EA6D27] text-white rounded-tl-[0.5rem] 
                     rounded-br-[0.5rem] font-semibold   '>Book a table</button>
                 </div>
         </div>

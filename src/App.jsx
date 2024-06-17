@@ -1,38 +1,41 @@
-import { useState } from 'react'
-import Header from './Components/Header'
-import Home from './Components/Home'
-import Dishes from './Components/Dishes'
-import About from './Components/About'
-import Expert from './Components/Expert'
-import Customer from './Components/Customer'
-import Footer from './Components/Footer'
-import Promo from './Components/Contact'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Dishes from './Components/Dishes';
+import Expert from './Components/Expert';
+import Customer from './Components/Customer';
+import Footer from './Components/Footer';
 
 
 function App() {
- 
   return (
-  <div className='   '>
     <Router>
-     <Header/>
-     <Routes>
-      <Route path='/' element={<About/>}/>
+      <Header />
+      <Home />
+      <section id="Dishes">
+        <Dishes />
+      </section>
+      <section id="about">
+        <About />
+      </section>
       
-     </Routes>
-     <Home/>
-    <Dishes/>
-    <About/>
-    <Expert/>
-    <Customer/>
-    <Contact/>
-    <Footer/>
+      <section id="Expert">
+        <Expert />
+      </section>
+      <section id="Customer">
+        <Customer />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <Footer/>
     </Router>
-
- 
-  </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
