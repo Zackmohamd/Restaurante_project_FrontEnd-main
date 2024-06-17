@@ -54,20 +54,20 @@ function Footer() {
             <ul className='pb-[13rem] space-y-5 '>
             <h1 className='font-bold '>Navigation</h1>
 
-                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Menu</a></li>
-                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">About</a></li>
-                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Contact us</a></li>
-                <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Main dishes</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Menu</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">About</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Contact us</a></li>
+                <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Main dishes</a></li>
 
             </ul>
             <div>
             <ul className='pb-[13rem] space-y-5'>
             <h1 className='font-bold'>Dishes</h1>
 
-            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Fish&Viggies</a></li>
-            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Tofu chili</a></li>
-            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Egg&Cocumber</a></li>
-            <li className=' text-gray-500'><a className='hover:text-gray-900' href="">Lumpia w/Suace</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline ' href="">Fish&Viggies</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Tofu chili</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Egg&Cocumber</a></li>
+            <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Lumpia w/Suace</a></li>
 
             </ul>
             
@@ -76,11 +76,11 @@ function Footer() {
                 <h1 className='font-bold ' >Connect with us</h1>
                 <div className=" flex space-x-4 mt-[2rem]  ">
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-facebook-f "></i>
+            fa-brands fa-facebook-f  hover:bg-blue-500 hover:text-white"></i>
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-instagram "></i>
+            fa-brands fa-instagram hover:bg-red-300"></i>
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
-            fa-brands fa-x-twitter "></i>
+            fa-brands fa-x-twitter hover:bg-black hover:text-white "></i>
        
         </div>
             </div>
@@ -97,11 +97,11 @@ function Footer() {
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                  
-                  <span className="hover:text-blue-300">Terms of Service</span>
+                  <span className="hover:text-blue-300 hover:underline">Terms of Service</span>
               </a>
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-7">
                   
-                  <span className="hover:text-blue-300">Privacy Policy</span>
+                  <span className="hover:text-blue-300 hover:underline">Privacy Policy</span>
               </a>
               </div>
               </div>
