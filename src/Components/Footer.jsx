@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className=''>
       
-    <div className=' flex   items-center  relative  justify-between mx-[8rem] h-[110vh]'>
+    <div className=' flex   items-center  relative  justify-between mx-[8rem] h-[70vh]'>
         {/* logo */}
 
-         <div className='pb-[22rem]'>
+         <div className='pb-[10.4rem]'>
             <img className=' absolute left-[-3rem]  pt-[-10rem] ml-[2rem]' src={Logo} alt="" />
             <h1 className=' text-[2rem] pl-[0.8rem] font-semibold pt-[-10rem] ml-[2rem]  ' >Restaurant</h1>
             <p className='pt-[1.5rem] text-gray-500'>lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod tempor incididunt ut labore et<br/> dolore  <a className='underline' href="#">.Learn more</a>
@@ -48,7 +48,7 @@ function Footer() {
        <div className='grid grid-rows-1 grid-flow-col gap-4 pb-[11rem]'>
 
         
-            <ul className='pb-[13rem] space-y-5 '>
+            <ul className='pb-[2rem] space-y-5 '>
             <h1 className='font-bold '>Navigation</h1>
 
                 <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline' href="">Home</a></li>
@@ -63,7 +63,7 @@ function Footer() {
             </ul>
             </div>
 
-            <div className='pb-[11rem]'>
+            <div className='pb-[-0.1rem]'>
             <ul className='pb-[13rem] space-y-5'>
             <h1 className='font-bold'>Dishes</h1>
             <li className=' text-gray-500'><a className='hover:text-gray-900 hover:underline ' href="">Fish&Viggies</a></li>
@@ -77,7 +77,7 @@ function Footer() {
             </ul>
             
             </div>
-            <div className='pb-[36rem]'>    
+            <div className='pb-[26rem]'>    
                 <h1 className='font-bold ' >Connect with us</h1>
                 <div className=" flex space-x-4 mt-[2rem]  ">
         <i class="border-[0.1rem] text-[1.3rem] border-black rounded-[50%] py-2 px-3
@@ -93,7 +93,7 @@ function Footer() {
 
       
     </div>
-<div className="flex justify-center  ">
+<div className="flex justify-center   ">
     <hr className="h-px w-[213vh]	py-[-10rem]	 bg-gray-200 border-0 dark:bg-gray-700  mb-4 mx-auto" />
 </div>
 <div className="sm:flex sm:items-center sm:justify-between pt-3 px-12 pb-[10rem]" >
