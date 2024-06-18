@@ -32,10 +32,12 @@ function App() {
       <section id="Customer">
         <Customer />
       </section>
-      <section id="contact">
+      <section id="Contact">
         <Contact />
       </section>
-      <Footer/>
+      <section id='Footer'>
+        <Footer/>
+      </section>
     </Router>
   );
 }

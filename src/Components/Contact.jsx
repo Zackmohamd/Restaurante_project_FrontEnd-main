@@ -3,7 +3,7 @@ import bg16 from '../assets/Maskgroup.png'
 function Contact() {
   return (
 
-    <div className="relative w-[150vh] mx-auto top-[-8rem] ">
+    <div id='Contact' className="relative w-[150vh] mx-auto top-[-8rem] ">
       <img src={bg16} alt="" />
     <div className="absolute inset-0 flex items-center justify-center px-10 ">
         <h2 class="text-white text-4xl font-bold pb-16  pl-12">Get Or Promo code by<br/> Subscribing To our newsletter</h2><br/>

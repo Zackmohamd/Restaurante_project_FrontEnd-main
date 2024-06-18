@@ -52,8 +52,8 @@ export default function Header() {
           </button>
         </li>
         <li className='list-none text-[1.3rem]'>
-          <button className='hover:text-gray-500 hover:underline' onClick={() => scrollToSection('contact')}>
-            Contact
+          <button className='hover:text-gray-500 hover:underline' onClick={() => scrollToSection('Contact')}>
+          Contact
           </button>
         </li>
         
