@@ -15,7 +15,10 @@ function App() {
   return (
     <Router>
       <Header />
+      <section id='Home'>
       <Home />
+
+      </section>
       <section id="Dishes">
         <Dishes />
       </section>

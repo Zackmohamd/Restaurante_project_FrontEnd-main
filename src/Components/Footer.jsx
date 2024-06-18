@@ -8,9 +8,7 @@ import bg15 from'../assets/Group.png'
 function Footer() {
   return (
     <div className=''>
-        <div>
-            
-        </div>
+      
     <div className=' flex   items-center  relative  justify-between mx-[8rem] h-[110vh]'>
         {/* logo */}
 
@@ -35,7 +33,7 @@ function Footer() {
                 </div>
                 <div className='pt-[3rem]  text-gray-500'>
                     <h1>Friday</h1>
-                    <h1>CLOSED</h1>
+                    <h1>Closed</h1>
 
                 </div>
              
