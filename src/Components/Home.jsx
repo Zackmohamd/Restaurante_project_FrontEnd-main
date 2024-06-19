@@ -7,7 +7,7 @@ import bg5 from'../assets/dish.png'
 import bg6 from'../assets/text.png'
 export default function Home() {
   return (
-    <div  id="home" className='flex mt-[11rem] relative justify-between mx-[8rem]  '>
+    <div  id="Home" className='flex mt-[11rem] relative justify-between mx-[8rem]  '>
          <img className=' sm:absolute top-[-4.8rem] left-[-2.4rem]   ' src={bg6} alt="" />
 
         <div className=" space-y-[3rem] relative top-[5.6rem]   ">

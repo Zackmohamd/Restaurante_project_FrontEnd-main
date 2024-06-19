@@ -8,9 +8,9 @@ import bg10 from'../assets/Goup1.png'
 
 function Expert() {
   return (
-        <div id='Expert' className=' flex mt-[8rem] relative justify-between mx-[8rem]  '>
+        <div  className=' flex mt-[8rem] relative justify-between mx-[8rem]  '>
          <div className="font-serif">
-  <img className='w-[10vw] absolute  left-[-15rem]    '  src={bg7} alt="" />
+  <img className='w-[10vw] absolute  left-[-14rem]    '  src={bg7} alt="" />
   <img className='w-[10vw] absolute  left-[-4rem]  top-[-2rem]  '  src={bg8} alt="" />
 
         <div className=" space-y-[3rem] relative    ">

@@ -5,7 +5,7 @@ import bg13 from '../assets/person1.png'
 
 function Customer() {
   return (
-    <div id='Customer' className='bg-gray-200 pb-[13rem]'>
+    <div  className='bg-gray-200 pb-[13rem]'>
       <div className='pr-[198px]'>
       <div className='flex mt-[8rem]  relative justify-between mx-[8rem] pb-[8rem] bg-gray-200 h-[130vh]'>
         <img className='w-[48vw] absolute left-[-10rem] top-[4rem]' src={bg11} alt="" />
