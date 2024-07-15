@@ -16,7 +16,7 @@ import bg9 from'../assets/basal.png'
 export default function Dishes() {
  
   return (
-    <div  className=' relative mt-[8rem]  bg-gray-200   '>
+    <div id='Dishes' className=' relative mt-[8rem]  bg-gray-200   '>
        
   
   <div className=" text-center  pt-[2rem]   ">
